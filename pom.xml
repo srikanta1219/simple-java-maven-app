@@ -15,6 +15,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>nexus3</id>
+        <name>shanvi-nexus-release</name>
+        <url>http://192.168.56.100:8081/repository/shanvi-nexus-release/</url>
+    </repository>
+</distributionManagement>
   <build>
     <plugins>
       <plugin>
